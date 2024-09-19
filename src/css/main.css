@@ -12,3 +12,158 @@ img,
 video {
   display: block;
 }
+body {
+  padding-top: 50px;
+  font-family: roboto;
+}
+.chart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.suisse {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 54px;
+}
+
+.bars {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.mobileA {
+  display: flex;
+  width: 195px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background: #ffcc2f;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+}
+.desktopA {
+  display: flex;
+  width: 105px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  background: #37d3d2;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+}
+.USA {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+  color: #000;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  padding-left: 29px;
+  font-weight: 400;
+}
+.mobileB {
+  display: flex;
+  width: 153px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background: #ffcc2f;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+}
+.desktopB {
+  display: flex;
+  width: 147px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  background: #37d3d2;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+}
+.Europe {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+  padding-left: 53px;
+}
+.mobileC {
+  display: flex;
+  width: 153px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background: #ffcc2f;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+}
+.desktopC {
+  display: flex;
+  width: 147px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  background: #37d3d2;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+}
+.legende {
+  display: flex;
+  width: 422px;
+  padding: 20px 0px 20px 120px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.legmob {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+}
+.legdesk {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+}
+.carreA {
+  width: 16px;
+  height: 16px;
+  background: #ffcc2f;
+}
+.carreB {
+  width: 16px;
+  height: 16px;
+  background: #37d3d2;
+}
